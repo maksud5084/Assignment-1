@@ -99,31 +99,71 @@ nav li {
 }
 
 /* user section style */
-.user-box{
-  max-width: 1000px;
-  background-color: #4d47ff20;
-  border-radius: 24px;
-  padding: 40px 20px;
-  text-align: center;
-  margin: 40px auto;
+.user-box {
+    max-width: 1000px;
+    background-color: #4d47ff20;
+    border-radius: 24px;
+    padding: 40px 20px;
+    text-align: center;
+    margin: 40px auto;
 }
-.user-box h2{
+
+.user-box h2 {
     font-size: 38px;
     font-weight: bold;
     margin-bottom: 30px;
     color: #252432;
 }
-.user{
+
+.user {
     display: flex;
     justify-content: space-around;
 }
 
-.user-number{
-font-size: 80px;
-font-weight: bold;
-color: #4E47FF;
+.user-number {
+    font-size: 80px;
+    font-weight: bold;
+    color: #4E47FF;
 }
-.user-status{
-color: #0000007e;
-font-size: 18px;
+
+.user-status {
+    color: #0000007e;
+    font-size: 18px;
+}
+
+/* review section style  */
+.review-section{
+    max-width: 1000px;
+    text-align: left;
+margin: 40px auto;
+}
+.review-header{
+    text-align: center;
+    color: #252432;
+    font-size: 42px;
+    font-weight: bold;
+}
+.card{
+    width: 366px;
+    margin: 20px;
+    padding: 10px 0 10px 10px;
+    background-color: #ffffffd7;
+    border-radius: 14px;
+}
+.cards{
+   padding: 24px;
+   display: flex;
+   justify-content: space-between;
+}
+.card-title{
+    color: #1E1E1E;
+}
+
+.card-profile{
+    display: flex;
+    gap: 20px;
+    /* flex-direction: column; */
+}
+.card-description{
+    color: #1E1E1E;
 }
