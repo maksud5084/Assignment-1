@@ -1,14 +1,15 @@
-
 .raleway-normal {
-  font-family: "Raleway", sans-serif;
-  font-optical-sizing: auto;
-  font-style: normal;
-  padding: 0;
-  margin: 0;
-  background-color: aliceblue;
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    padding: 0;
+    margin: 0;
+    background-color: #F5F8FF;
+    /* max-width: 1140px; */
 }
+
 /* shared style  */
-.btn-primary{
+.btn-primary {
     color: #FFFFFF;
     font-size: 16px;
     font-weight: bold;
@@ -19,69 +20,110 @@
 }
 
 /* nav styles */
-.header{
+.header {
     background-image: url(../Assets/Hero-bg.png);
     block-size: cover;
 }
-.top-menu{
+
+.top-menu {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin:0 150px 50px 145px;
+    margin: 0 150px 50px 145px;
 }
-.logo{
+
+.logo {
     font-style: black;
     font-size: 34px;
     color: #4E47FF;
 }
-nav li{
-list-style: none;
+
+nav li {
+    list-style: none;
 }
+
 /* banner design */
-.banner{
+.banner {
     max-width: 905px;
-    margin:150px 260px 185px 260px;
+    margin: 150px 260px 185px 260px;
     text-align: center;
 
 }
-.banner-title{
+
+.banner-title {
     font-size: 65px;
     font-weight: bold;
     color: #252432;
 }
-.stay-focused{
+
+.stay-focused {
     /* text-align: center; */
     margin-bottom: 45px;
 }
+
 /* about section style  */
-.about{
+.about {
     max-width: 1140px;
     display: flex;
     align-items: center;
     justify-content: space-between;
     margin-bottom: 116px;
 }
-.about-content{
+
+.about-content {
     width: 517px;
     height: 203px;
     margin: 62px 220px 62px 140px;
-    
+
 }
-.about-title{
+
+.about-title {
     font-weight: bold;
     font-size: 42px;
     color: #252432;
     margin-bottom: 23px;
 }
-.about-description{
+
+.about-description {
     font-weight: normal;
     font-size: 24px;
     color: #252432;
     margin-bottom: 23px;
 }
-.about-image{
-width: 550px;
-height: 328px;
-border-radius: 48px;
-overflow: hidden;
+
+.about-image {
+    width: 550px;
+    height: 328px;
+    border-radius: 48px;
+    overflow: hidden;
+}
+
+/* user section style */
+.user-box{
+  max-width: 1000px;
+  background-color: #4d47ff20;
+  border-radius: 24px;
+  padding: 40px 20px;
+  text-align: center;
+  margin: 40px auto;
+}
+.user-box h2{
+    font-size: 38px;
+    font-weight: bold;
+    margin-bottom: 30px;
+    color: #252432;
+}
+.user{
+    display: flex;
+    justify-content: space-around;
+}
+
+.user-number{
+font-size: 80px;
+font-weight: bold;
+color: #4E47FF;
+}
+.user-status{
+color: #0000007e;
+font-size: 18px;
 }
