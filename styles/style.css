@@ -3,6 +3,9 @@
   font-family: "Raleway", sans-serif;
   font-optical-sizing: auto;
   font-style: normal;
+  padding: 0;
+  margin: 0;
+  background-color: aliceblue;
 }
 /* shared style  */
 .btn-primary{
@@ -16,11 +19,14 @@
 }
 
 /* nav styles */
+.header{
+    background-image: url(../Assets/Hero-bg.png);
+}
 .top-menu{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 50px 150px 50px 145px;
+    margin:0 150px 50px 145px;
 }
 .logo{
     font-style: black;
@@ -29,4 +35,20 @@
 }
 nav li{
 list-style: none;
+}
+/* banner design */
+.banner{
+    max-width: 905px;
+    margin:150px 260px 185px 260px;
+    text-align: center;
+
+}
+.banner-title{
+    font-size: 65px;
+    font-weight: bold;
+    color: #252432;
+}
+.stay-focused{
+    /* text-align: center; */
+    margin-bottom: 100px;
 }
