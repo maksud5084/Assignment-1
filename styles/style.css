@@ -184,3 +184,24 @@ margin: 40px auto;
     padding: 10px 60px;
 
 }
+/* footer style */
+footer{
+    text-align: center;
+    width: 531px;
+    margin: 50px auto;
+}
+footer p{
+    columns: #8987A1;
+}
+footer ul{
+    display: flex;
+    justify-content: space-between;
+}
+footer li{
+    list-style: none;
+    
+}
+footer li a{
+    text-decoration: none;
+    color: #8987A1;
+}
