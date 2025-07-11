@@ -45,9 +45,8 @@ nav li {
 /* banner design */
 .banner {
     max-width: 905px;
-    margin: 150px 260px 185px 260px;
     text-align: center;
-
+    margin: 100px auto;
 }
 
 .banner-title {
@@ -61,8 +60,8 @@ nav li {
     margin-bottom: 45px;
 }
 
-/* about section style  */
-.about {
+/* action section style  */
+.action {
     max-width: 1140px;
     display: flex;
     align-items: center;
@@ -70,28 +69,28 @@ nav li {
     margin-bottom: 116px;
 }
 
-.about-content {
+.action-content {
     width: 517px;
     height: 203px;
     margin: 62px 220px 62px 140px;
 
 }
 
-.about-title {
+.action-title {
     font-weight: bold;
     font-size: 42px;
     color: #252432;
     margin-bottom: 23px;
 }
 
-.about-description {
+.action-description {
     font-weight: normal;
     font-size: 24px;
     color: #252432;
     margin-bottom: 23px;
 }
 
-.about-image {
+.action-image {
     width: 550px;
     height: 328px;
     border-radius: 48px;
@@ -135,7 +134,7 @@ nav li {
 .review-section{
     max-width: 1000px;
     text-align: left;
-margin: 40px auto;
+    margin: 40px auto;
 }
 .review-header{
     text-align: center;
@@ -176,14 +175,19 @@ margin: 40px auto;
     justify-content: space-evenly;
 }
 .form-title{
-    font-size: 80px;
+    font-size: 60px;
     font-weight: bold;
     color: #000000;
 }
 #btn-form{
-    padding: 10px 60px;
-
+    padding: 10px 85px;
+    /* width: 100%; */
 }
+input[type="email"],input[type="text"]{
+    height: 50px;
+    width: 250px;
+}
+
 /* footer style */
 footer{
     text-align: center;
