@@ -205,3 +205,9 @@ footer li a{
     text-decoration: none;
     color: #8987A1;
 }
+/* button hover */
+.btn-primary:hover{
+    background-color: rgb(199, 205, 25);
+    font-size: larger;
+    font-weight: bold;
+}
